@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #adad98;
+}
+.container
+{
+    width: 1200px;
+    margin: auto;
+}
+.Menu{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Menu ul li{
+    display: inline-block;
+    padding: 10px 20px ;
+    text-transform:  uppercase;
+}
+.Menu ul li a img{
+   margin-bottom: -33px;
+}
+.Menu img:hover{
+    opacity: 0;
+}
+
+.slice .img{
+    width: 200%;
+}
+.slice{
+    margin-top: 30px;
+    margin-left: 257px;
+    padding: relative;
+
+}
+
+.slice .left{
+    width: 400px;
+    position: absolute;
+    left: 290px;
+    top: 248px;
+}
+.slice .left h2{
+    font-size: 40px;
+    color: #fff;   
+    margin-top: 10px;
+}
+.left p{
+    margin-top: 20px;
+    color: #fff;
+}
+.btn{
+    padding: 15px 55px;
+    background-color: #758dba;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+.slice .right{
+    position: absolute;
+    bottom: 258px;
+    right: 20px;
+
+}
+
+.hidden{
+    background-color: rgba(red, green, blue, alpha);
+    color: #fff;
+    margin-right: 20px;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+}
